@@ -16,7 +16,7 @@
 - Создан файл **[fermat_cython.pyx](Lr6/fermat_cython.pyx)** с типизированными версиями функций:
 - Скомпилирован через **[setup.py](Lr6/setup.py)**.
 
-![Build Cython](Lr6/Cython_Build.png)
+![Build Cython](Cython_Build.png)
 
 3. Многопоточность и многопроцессность
 - Создан скрипт **[parallel_test.py](Lr6/parallel_test.py)**, использующий:
