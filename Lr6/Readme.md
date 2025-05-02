@@ -16,7 +16,7 @@
 - Создан файл **[fermat_cython.pyx](Lr6/fermat_cython.pyx)** с типизированными версиями функций:
 - Скомпилирован через **[setup.py](Lr6/setup.py)**.
 
-![Build Cython](Lr6/Cython Build.png)
+![Build Cython](Lr6/Cython_Build.png)
 
 3. Многопоточность и многопроцессность
 - Создан скрипт **[parallel_test.py](Lr6/parallel_test.py)**, использующий:
@@ -34,7 +34,7 @@
 
 # Результаты тестов
 
-![Результаты тестов](Lr6/Cython parallel_test.py.png)
+![Результаты тестов](Lr6/Cython_parallel_test.py.png)
 
 # Вывод
 Многопроцессный подход оказался в 2 раза быстрее многопоточного благодаря лучшей изоляции и загрузке всех ядер процессора.
