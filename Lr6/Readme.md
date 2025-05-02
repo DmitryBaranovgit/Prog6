@@ -14,7 +14,8 @@
 2. Оптимизация с использованием Cython
 
 - Создан файл **[fermat_cython.pyx](Lr6/fermat_cython.pyx)** с типизированными версиями функций:
-- Скомпилирован через **[setup.py](Lr6/setup.py).
+- Скомпилирован через **[setup.py](Lr6/setup.py)**.
+
 ![Build Cython](Lr6/Cython Build.png)
 
 3. Многопоточность и многопроцессность
@@ -32,6 +33,7 @@
 -  - Процессов (submit и map)
 
 # Результаты тестов
+
 ![Результаты тестов](Lr6/Cython parallel_test.py.png)
 
 # Вывод
