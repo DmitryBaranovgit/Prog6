@@ -34,11 +34,11 @@
 # Пример запуска
 Обработка видео с камеры
 
-`python age_gender_detection_image_and_webcam.py`
+<pre> ```python age_gender_detection_image_and_webcam.py``` </pre>
 
 Обработка изображения
 
-`python age_gender_detection_image_and_webcam.py --image path_to_image.jpg`
+<pre> ```python age_gender_detection_image_and_webcam.py --image path_to_image.jpg`</pre>
 
 # Вывод в консоль
 ![Терминал](output.png)
