@@ -38,6 +38,6 @@
 
 ```python age_gender_gui_pyside.py```
 
-## Графический интерфейс
+# Графический интерфейс
 
 ![Графический интерфейс](display_window.png)
