@@ -45,26 +45,27 @@
 ```https://IP:8090```
 
 # Структура проекта
-grpc-glossary_project
-│
-├── proto/
-│ └── glossary.proto # Протокол gRPC
-│
-├── server/ #gRPC-сервер
-│ ├── glossary_server.py # Реализация сервиса
-│ └── Dockerfile
-│
-├── web/ # Веб-клиент Flask
-│ ├── templates/
-│ │ └── graph.html # Шаблон с визуализацией MindMap
-│ ├── app.py # Flask-приложение
-│ └── Dockerfile
-│ 
-├── data/
-│ └── terms.js # Словарь терминов в JSON
-│
-├── grpc_test_client.py # Тестирование
-└── docker-compose.yml # Контейнеризация
+.
+├── grpc-glossary_project
+├── │
+├── ├── proto/
+├── │ └── glossary.proto # Протокол gRPC
+├── │
+├── ├── server/ #gRPC-сервер
+├── │ ├── glossary_server.py # Реализация сервиса
+├── │ └── Dockerfile
+├── │
+├── ├── web/ # Веб-клиент Flask
+├── │ ├── templates/
+├── │ │ └── graph.html # Шаблон с визуализацией MindMap
+├── │ ├── app.py # Flask-приложение
+├── │ └── Dockerfile
+├── │ 
+├── ├── data/
+├── │ └── terms.js # Словарь терминов в JSON
+├── │
+├── ├── grpc_test_client.py # Тестирование
+└── └── docker-compose.yml # Контейнеризация
 
 ## Быстрый старт
 
