@@ -45,6 +45,7 @@
 ```https://IP:8090```
 
 # Структура проекта
+```
 grpc_glossary_project
 ├─ data
 │  └─ terms.json
@@ -60,7 +61,7 @@ grpc_glossary_project
    ├─ Dockerfile
    └─ templates
       └─ graph.html
-
+```
 ## Быстрый старт
 
 ### 1. Клонируйте проект и соберите контейнеры:
