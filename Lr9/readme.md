@@ -45,23 +45,23 @@
 ```https://IP:8090```
 
 # Структура проекта
-```
+
 grpc_glossary_project
 ├─ data
-│  └─ terms.json
-├─ docker-compose.yml
-├─ grpc_test_client.py
+│  └─ terms.json # Словарь терминов в JSON
+├─ docker-compose.yml # Контейнеризация
+├─ grpc_test_client.py # Тестирование
 ├─ proto
-│  └─ glossary.proto
-├─ server
+│  └─ glossary.proto # Протокол gRPC
+├─ server #gRPC-сервер
 │  ├─ Dockerfile
-│  └─ glossary_server.py
-└─ web
-   ├─ app.py
+│  └─ glossary_server.py # Реализация сервиса
+└─ web # Веб-клиент Flask
+   ├─ app.py # Flask-приложение
    ├─ Dockerfile
    └─ templates
-      └─ graph.html
-```
+      └─ graph.html # Шаблон с визуализацией MindMap
+
 ## Быстрый старт
 
 ### 1. Клонируйте проект и соберите контейнеры:
