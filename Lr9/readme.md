@@ -45,7 +45,7 @@
 ```https://IP:8090```
 
 # Структура проекта
-
+```
 grpc_glossary_project
 ├─ data
 │  └─ terms.json # Словарь терминов в JSON
@@ -61,7 +61,7 @@ grpc_glossary_project
    ├─ Dockerfile
    └─ templates
       └─ graph.html # Шаблон с визуализацией MindMap
-
+```
 ## Быстрый старт
 
 ### 1. Клонируйте проект и соберите контейнеры:
